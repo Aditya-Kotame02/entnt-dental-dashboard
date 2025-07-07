@@ -80,20 +80,31 @@ This project was developed and submitted as part of the ENTNT Frontend Developer
 
 ## Project Structure
 
-src/
-├── components/ # Reusable UI components
-├── context/ # Auth context and session management
-├── pages/
-│ ├── admin/ # Admin views and dashboards
-│ └── patient/ # Patient dashboard
-├── utils/ # Data seeders and localStorage handlers
-├── App.js # Routing configuration
-└── index.js
-
-yaml
-Copy
-Edit
-
+entnt-dental-dashboard/
+├── public/
+│   └── index.html                # HTML entry point
+├── src/
+│   ├── components/               # Reusable components (e.g., LogoutButton, FilePreview)
+│   ├── context/
+│   │   └── AuthContext.js        # Auth context for login/session handling
+│   ├── pages/
+│   │   ├── admin/                # Admin dashboard and pages
+│   │   │   ├── AdminDashboard.js
+│   │   │   ├── Appointments.js
+│   │   │   ├── CalendarView.js
+│   │   │   └── Patients.js
+│   │   └── patient/
+│   │       └── PatientDashboard.js
+│   ├── utils/                    # LocalStorage data handlers and seeders
+│   │   ├── incidentStorage.js
+│   │   ├── storage.js
+│   │   └── seed.js
+│   ├── App.js                    # Main app component with route configuration
+│   ├── index.css                 # Global Tailwind styles
+│   └── index.js                  # ReactDOM entry point
+├── package.json
+├── tailwind.config.js
+└── README.md
 ---
 
 ## Installation and Running Locally
