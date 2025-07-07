@@ -82,26 +82,26 @@ This project was developed and submitted as part of the ENTNT Frontend Developer
 
 entnt-dental-dashboard/
 ├── public/
-│   └── index.html                # HTML entry point
+│ └── index.html # HTML entry point
 ├── src/
-│   ├── components/               # Reusable components (e.g., LogoutButton, FilePreview)
-│   ├── context/
-│   │   └── AuthContext.js        # Auth context for login/session handling
-│   ├── pages/
-│   │   ├── admin/                # Admin dashboard and pages
-│   │   │   ├── AdminDashboard.js
-│   │   │   ├── Appointments.js
-│   │   │   ├── CalendarView.js
-│   │   │   └── Patients.js
-│   │   └── patient/
-│   │       └── PatientDashboard.js
-│   ├── utils/                    # LocalStorage data handlers and seeders
-│   │   ├── incidentStorage.js
-│   │   ├── storage.js
-│   │   └── seed.js
-│   ├── App.js                    # Main app component with route configuration
-│   ├── index.css                 # Global Tailwind styles
-│   └── index.js                  # ReactDOM entry point
+│ ├── components/ # Reusable components (LogoutButton, FilePreview)
+│ ├── context/
+│ │ └── AuthContext.js # Auth context for login/session
+│ ├── pages/
+│ │ ├── admin/ # Admin views
+│ │ │ ├── AdminDashboard.js
+│ │ │ ├── Appointments.js
+│ │ │ ├── CalendarView.js
+│ │ │ └── Patients.js
+│ │ └── patient/
+│ │ └── PatientDashboard.js
+│ ├── utils/ # LocalStorage data handling
+│ │ ├── incidentStorage.js
+│ │ ├── storage.js
+│ │ └── seed.js
+│ ├── App.js # Main app with routes
+│ ├── index.css # Tailwind styles
+│ └── index.js # Entry point
 ├── package.json
 ├── tailwind.config.js
 └── README.md
