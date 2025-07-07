@@ -159,8 +159,6 @@ Then open `http://localhost:3000` in your browser.
 
 - GitHub Repository: https://github.com/Aditya-Kotame02/entnt-dental-dashboard  
 - Deployed Link (Vercel): https://entnt-dental-dashboard-roan.vercel.app  
-- Submitted to: hr@entnt.in
-
 ---
 
 ## Author
